@@ -1,0 +1,303 @@
+/* body {
+  background-image: linear-gradient(135deg, #FAB2FF 10%, #1904E5 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Open Sans", sans-serif;
+  color: #333333;
+} */
+
+.box-form {
+  position: fixed; /* Set position to fixed */
+  top: 60%; /* Adjust top position */
+  left: 50%; /* Adjust left position if needed */
+  transform: translate(-50%, -50%); /* Center the box */
+  width: 60%;
+  background: #FFFFFF;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex: 1 1 100%;
+  align-items: stretch;
+  justify-content: space-between;
+  box-shadow: 0 0 20px 6px #090b6f85;
+  z-index: 999; /* Ensure the box appears on top */
+}
+
+
+@media (max-width: 980px) {
+  .box-form {
+    flex-flow: wrap;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+  }
+}
+.box-form div {
+  height: auto;
+  text-align: left;
+}
+.box-form .left {
+  color: #FFFFFF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://i.pinimg.com/736x/5d/73/ea/5d73eaabb25e3805de1f8cdea7df4a42--tumblr-backgrounds-iphone-phone-wallpapers-iphone-wallaper-tumblr.jpg");
+  overflow: hidden;
+}
+.box-form .left .overlay {
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  background: #5961f9ad;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.box-form .left .overlay h1 {
+  font-size: 2vmax;
+  line-height: 1;
+  font-weight: 900;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.box-form .left .overlay span p {
+  margin-top: 30px;
+  font-weight: 900;
+}
+.box-form .left .overlay p {
+  font-size: 18px; /* Adjust font size as needed */
+  line-height: 1.5; /* Adjust line height as needed */
+  margin-top: 20px; /* Adjust top margin as needed */
+  color: #ffffff; /* Text color */
+}
+.box-form .left .overlay span a {
+  background: #3b5998;
+  color: #FFFFFF;
+  margin-top: 10px;
+  padding: 14px 50px;
+  border-radius: 100px;
+  display: inline-block;
+  box-shadow: 0 3px 6px 1px #042d4657;
+}
+.box-form .left .overlay span a:last-child {
+  background: #1dcaff;
+  margin-left: 30px;
+}
+.box-form .right {
+  padding: 50px;
+  overflow: hidden;
+}
+@media (max-width: 980px) {
+  .box-form .right {
+    width: 100%;
+  }
+}
+.box-form .right h5 {
+  font-size: 6vmax;
+  line-height: 0;
+}
+.box-form .right p {
+  font-size: 14px;
+  color: #B0B3B9;
+}
+.box-form .right .inputs {
+  overflow: hidden;
+  display: flex; /* Added */
+  flex-wrap: wrap; /* Added */
+}
+.box-form .right .inputs > div {
+  flex: 0 0 50%; /* Added */
+  padding-right: 10px; /* Added for spacing */
+}
+.box-form .right input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 1px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #B0B3B9;
+}
+.box-form .right .remember-me--forget-password {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box-form .right .remember-me--forget-password input {
+  margin: 0;
+  margin-right: 7px;
+  width: auto;
+}
+.box-form .right button {
+  float: center;
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 35px;
+  border-radius: 50px;
+  display: inline-flex;
+  border: 0;
+  outline: 0;
+  box-shadow: 0px 4px 20px 0px #49c628a6;
+  background-image: linear-gradient(135deg, #70F570 10%, #49C628 100%);
+}
+
+
+/* CSS */
+.button-88 {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px; /* Adjusted font size */
+  padding: 0.5em 2em; /* Adjusted padding */
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(0deg, rgba(20,167,62,1) 0%, rgba(102,247,113,1) 100%);
+  border: none;
+  box-shadow: 0 0.5em 1em -0.3em #14a73e98; /* Adjusted box shadow */
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-88:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+}
+
+.button-88:active {
+  box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+}
+
+
+label {
+  display: block;
+  position: relative;
+  margin-left: 0px;
+}
+
+/* label::before {
+  content: ' \f00c';
+  position: absolute;
+  font-family: FontAwesome;
+  background: transparent;
+  border: 3px solid #70F570;
+  border-radius: 4px;
+  color: transparent;
+  left: -30px;
+  transition: all 0.2s linear;
+}
+
+label:hover::before {
+  font-family: FontAwesome;
+  content: ' \f00c';
+  color: #fff;
+  cursor: pointer;
+  background: #70F570;
+} */
+
+/* label:hover::before .text-checkbox {
+  background: #70F570;
+} */
+
+label span.text-checkbox {
+  display: inline-block;
+  height: auto;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+label input[type="checkbox"] {
+  display: none;
+}
+.profile-details {
+  background-color: #f7f7f7; /* Light gray background */
+  border-radius: 10px; /* More rounded corners for a softer look */
+  padding: 25px 40px; /* Increase padding for a more spacious feel */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow */
+  margin: 20px auto; /* Center the card horizontally */
+  max-width: 500px; /* Set a maximum width */
+  font-family: Open Sans, sans-serif; /* Modern sans-serif font */
+  position: relative; /* Needed for hover effect */
+}
+
+.profile-details::before {
+  /* Decorative border on hover */
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #ddd; /* Light gray border */
+  border-radius: inherit; /* Inherit rounded corners from profile-details */
+  opacity: 0; /* Initially invisible */
+  transition: opacity 0.2s ease-in-out; /* Smooth transition on hover */
+}
+
+.profile-details:hover::before {
+  opacity: 1; /* Show border on hover */
+}
+
+.profile-details h2 {
+  font-size: 24px; /* Larger heading */
+  text-align: center; /* Center-align the heading */
+  margin-bottom: 15px; /* Add some space below the heading */
+  color: #333; /* Darker text for heading */
+  font-weight: bold; 
+}
+
+/* Stylish credit score section */
+
+.credits-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.credits-container {
+  background: linear-gradient(135deg, #4CAF50, #cdc70c); /* Gradient background */
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer; /* Add cursor pointer to indicate interactivity */
+}
+
+.credits-container:hover {
+  transform: translateY(-5px); /* Move up slightly on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Add a stronger shadow on hover */
+}
+
+.credits-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f7f7f7;
+}
+
+.credits-value {
+  font-size: 36px;
+  margin-top: 10px;
+  color: #f6f5f7;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply animation to the container */
+.credits-container {
+  animation: fadeIn 0.5s ease forwards; /* Apply animation */
+}
